@@ -255,8 +255,18 @@ function div2(a, b) {
 
 // }
 
+//example 1
+
 let intro = (name, loc, age) => {
     console.log(`My name is ${name}, I am from ${loc} and my age is ${age}`);
 }
 
-intro("Akshay", "Pune", 23);
+// intro("Akshay", "Pune", 23);
+
+//example 2
+
+let order = (name, item, bill) => {
+    console.log(`Here is your order mr. ${name} of ${item} and your bill is : ${bill}`);
+}
+
+order("Akshay", "Drone", 100000);
