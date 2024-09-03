@@ -223,8 +223,8 @@ function secondWay(a, b) {
     console.log("Other way");
 }`);
 }
-firstWay();
-secondWay();
+// firstWay();
+// secondWay();
 
 
 function add2(a, b) {
@@ -244,7 +244,19 @@ function div2(a, b) {
 
 }
 
-add2(12, 123);
-sub2(12, 3);
-mul2(13, 3);
-div2(245, 5);
+// add2(12, 123);
+// sub2(12, 3);
+// mul2(13, 3);
+// div2(245, 5);
+
+// Arrow functions
+
+// let arrFunAdd = (a, b) => {
+
+// }
+
+let intro = (name, loc, age) => {
+    console.log(`My name is ${name}, I am from ${loc} and my age is ${age}`);
+}
+
+intro("Akshay", "Pune", 23);
