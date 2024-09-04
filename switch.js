@@ -1,4 +1,11 @@
-var c = prompt("how are you");
+
+// 3 / 9 / 24
+console.log("3/9/24");
+console.log("");
+
+var c = prompt("How are you");
+
+
 switch (c) {
     case "happy":
         console.log("I am happy");
