@@ -269,4 +269,14 @@ let order = (name, item, bill) => {
     console.log(`Here is your order mr. ${name} of ${item} and your bill is : ${bill}`);
 }
 
-order("Akshay", "Drone", 100000);
+// order("Akshay", "Drone", 100000);
+//example
+
+let animalSound = (name, sound) => {
+    console.log(`Animal name is ${name} and sound ${sound}`);
+}
+
+animalSound("cat", "Manuoo-Manuoo");
+animalSound("Dog", "Bhaoo-Bhaoo");
+animalSound("Snake", "ssssssss-ssssss");
+animalSound("Ant", "    ");
