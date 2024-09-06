@@ -47,5 +47,3 @@ console.log(b);
 const c = 34;
 // c = 34;// cte
 console.log(c);
-
-
