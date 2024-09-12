@@ -16,4 +16,3 @@ let f2 = () => {
 // let rv22 = rv2();
 // console.log(rv22);
 console.log(f2()());
-
