@@ -43,12 +43,15 @@ console.log("31/8/24");
 console.log("");
 
 
-console.log(10 + 10);
-console.log("10" + 10);
-console.log("10" + "12");
-console.log("10" - 10);
+console.log(10 + 10); //20
+console.log("10" + 10); // 1010
+console.log("10" + "12"); // 22
+console.log("10" - "10"); // 0
+console.log("10" - 10); // 0
+console.log("10" == 10); // true
 console.log("10years" - 10); //nan
 console.log("10year" / 12);//nan
+console.log(12 / 0);  //infinity
 console.log("10year" * 12);//nan
 console.log("10year" % 12);//nan
 console.log("10year" - "12");//nan
