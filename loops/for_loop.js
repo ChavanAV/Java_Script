@@ -1,4 +1,6 @@
 
+// String :- In js String also has index, we can access characters in string by using index directly of a perticular string.
+
 
 let str = "Hello hunny bunny"
 
