@@ -21,9 +21,14 @@ console.log(typeof n, n);
 // 16/9/24
 console.log("16/9/24");
 console.log("");
+
 //convert string into a number
 let str = prompt("Enter String")
 console.log(str);
+
+//Explicit type casting
 console.log(Number(str));
 console.log(parseint(str));
+
+//implicit type casting
 console.log(+str);
