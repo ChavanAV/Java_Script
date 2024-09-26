@@ -15,21 +15,22 @@ console.log(obj2);
 // using classes in js
 
 class CreateObj {
-    constructor(name) {
-        console.log(name);
-        this.name = name
+    constructor(name, age) {
+        console.log(name),
+            this.name = name,
+            this.age = age
     }
 }
 
 
-let obj3 = new CreateObj("Ram")
-let obj32 = new CreateObj("Raj")
+let obj3 = new CreateObj("Ram", 23)
+let obj32 = new CreateObj("Raj", 12)
 console.log(obj3, obj32);
 
 
-//Using factory function
+//4 Using factory function
 
-let CreateObj2 = (name, add) => {
+let createObj2 = (name, add) => {
     let obj = {
         name: name,
         add: add
@@ -37,7 +38,7 @@ let CreateObj2 = (name, add) => {
     return obj;
 }
 
-let obj41 = CreateObj2("ABC", "adsfd")
-let obj42 = CreateObj2("xyz", "adsfd")
-let obj43 = CreateObj2("pqr", "adsfd")
+let obj41 = createObj2("ABC", "adsfd")
+let obj42 = createObj2("xyz", "adsfd")
+let obj43 = createObj2("pqr", "adsfd")
 console.log(obj41, obj42, obj43);
