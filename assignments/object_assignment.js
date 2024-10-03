@@ -34,13 +34,13 @@ keys.forEach(k => {
 //    };
 //    ```
 //    Retrieve all the values from this `movie` object and print them in a structured format.
-const movie = {
+const movie2 = {
     title: 'Inception',
     director: 'Christopher Nolan',
     releaseYear: 2010,
     rating: 8.8
 };
-const values = Object.values(movie);
+const values = Object.values(movie2);
 console.log('Movie Details:');
 values.forEach(value => {
     console.log(value);
@@ -142,7 +142,7 @@ console.log(userInfo);
 //    Create a shallow copy of the `person` object. 
 //  Modify the `city` property in the copied object and check the original object.
 
-const person = {
+const person2 = {
     name: 'John',
     age: 35,
     address: {
@@ -151,13 +151,13 @@ const person = {
     }
 };
 
-const personCopy = Object.assign({}, person);
+const personCopy = Object.assign({}, person2);
 //another way
 // const personCopy = Object.assign(person);
 
 personCopy.address.city = 'Pune';
 
-console.log('Original:', person);
+console.log('Original:', person2);
 console.log('Copied:', personCopy);
 
 
@@ -296,10 +296,10 @@ function Movie(title, director) {
 // };
 
 const movie1 = new Movie('Inception', 'Christopher Nolan');
-const movie2 = new Movie('The Matrix', 'Wachowskis');
+const movie22 = new Movie('The Matrix', 'Wachowskis');
 
 console.log(movie1.getDetails());
-console.log(movie2.getDetails());
+console.log(movie22.getDetails());
 
 
 
