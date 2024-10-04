@@ -51,4 +51,3 @@ let data = [{ "id": 1, "first_name": "Rockie", "email": "rmarczyk0@networkadvert
 
 let d = data.find(e => e.first_name == "King")
 console.log(d);
-
