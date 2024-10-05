@@ -1,4 +1,4 @@
-
+/*
 //String
 
 // declaration: -
@@ -44,8 +44,8 @@ for (let i = 0; i < str6.length; i++) {
 
 // Methods of String:-
 // 1- split()
-// 2- reverse()
-// 3- join()
+// 2- reverse()  - array method
+// 3- join()     - array method
 // 4- padEnd()
 // 5- padStart()
 // 6- trim(), trimStart(), trimEnd()
@@ -180,3 +180,72 @@ console.log(str13.replaceAll("M", "B")); //BALYALAB
 
 let str14 = 'bahubali'
 console.log(str14.replace('ba', 'K').replace("h", "ha").replace('b', 'G'));
+
+
+
+
+
+//slice() method:-
+//used to slice the string from original string.
+
+let str15 = "Katappa"
+console.log(str15.slice(0, 2));  //Ka
+console.log(str15.slice(2, 7));  //tappa
+console.log(str15.slice(3, 7));  //appa
+console.log(str15.slice(0, -4)); //Katap
+// in the case of -ve value it cuts the string from last index.
+//to get the last element
+console.log(str15.slice(-1));
+console.log(str15.slice(-1, str15.length));
+
+
+// substring() method:-
+//used to slice the string from original string.
+
+console.log(str15.substring(0, 2)); //Ka
+console.log(str15.substring(2, 7)); //tappa
+console.log(str15.substring(3, 7)); //appa
+
+console.log(str15.substring(0, -2)) //no output
+console.log(str15.substring(-1)) //Katappa
+console.log(str15.substring(-1, str15.length)) //Katappa
+
+//substr():- depre
+console.log(str15.substr(-1, 3)); // a
+
+
+//includes() method:-
+//Used to check the character/sub-string is present in string or not
+*/
+let str16 = "Katappa"
+console.log(str16.includes("a"));//true
+console.log(str16.includes("pa"));//true
+console.log(str16.includes("ap"));//true
+console.log(str16.includes("kat"));//false k upper case
+
+//startsWith():-
+//endsWith():-
+console.log(str16.startsWith("K"));//true
+console.log(str16.endsWith("K"));//flase
+
+//at():-
+console.log(str16.at(0));//K
+console.log(str16.at(3));//a
+
+
+//charAt():-
+console.log(str16.charAt(0));//K
+console.log(str16.charAt(3));//a
+
+// charCodeAt():- returns the ascii value
+
+console.log(str16.charCodeAt(0));//75
+console.log(str16.charCodeAt(1));//97
+
+let str17 = "Katappa"
+
+
+
+
+
+
