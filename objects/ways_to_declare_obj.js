@@ -35,7 +35,7 @@ console.log("---------------------------------------");
 let createObj2 = (name, add) => {
     let obj = {
         name: name,
-        add: add
+        add: add,
     }
     return obj;
 }
@@ -54,9 +54,13 @@ console.log(5);
 function CreateObj3(name, age) {
     this.name = name,
         this.age = age
+    this.greet = function () {
+        console.log("dfss");
+
+    }
 }
 
-let obj4 = new CreateObj3("Akshay", 23);
-console.log(obj4);
-
-console.log("---------------------------------------");
+let obj4 = new CreateObj3("Akshay", 23)
+console.log(obj4)
+obj4.greet()
+console.log("---------------------------------------")

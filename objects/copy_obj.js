@@ -8,7 +8,7 @@
 
 
 let obj1 = {
-    name: "Sangram"
+    name: "Raj"
 }
 let obj2 = {
     age: 21
