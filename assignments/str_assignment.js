@@ -222,5 +222,4 @@ let f20 = (sentence) => {
     }
     return `There are ${c} spaces in the sentence.`
 }
-
 console.log(f20("There are many spaces here.")); 
