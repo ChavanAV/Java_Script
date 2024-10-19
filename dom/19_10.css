@@ -1,0 +1,10 @@
+nav {
+    height: 50;
+    width: 50%;
+    display: flex;
+    background-color: aqua;
+}
+
+div {
+    width: 100px;
+}

@@ -1,0 +1,37 @@
+* {
+    background-color: rgb(208, 247, 247);
+}
+
+/* 
+h1 {
+    align-items: center;
+    margin-left: 40%;
+    color: aliceblue;
+    font-weight: 200;
+} */
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 20px;
+    list-style: none;
+    height: 40px;
+    text-decoration: solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(30, 41, 50);
+    font-weight: 200;
+}
+
+/* 
+li.l1 {
+    list-style: lower-alpha;
+} */
+
+.mySearch {
+    height: 20px;
+    border-radius: 10%;
+    margin-top: 20px;
+
+}
