@@ -86,3 +86,17 @@ console.log('Original: ', arr5)
 cp2 = arr5.splice(0, 0, 5)
 console.log('Copy: ', cp2)
 console.log('Original: ', arr5)
+
+
+
+//to flat the array in first level
+let arr6 = [[10, 20], [30, 40], 50]
+
+console.log(arr6.flat());
+
+// for secon level use 2 flat mehtods
+let arr7 = [[10, 20], [30, 40, [50, 60]], 70]
+
+console.log(arr7.flat().flat());
+
+
